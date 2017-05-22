@@ -1,0 +1,105 @@
+
+All of the commands below are case insensitive. Replace the words between < > for the appropriate value (and remove the < > as well).
+A slash represents a variation of the command, so write either what's on the left of the slash or what's on the right.
+Please use commands that send files sparingly and keep the files, as they can get quite expensive if several people are using them.
+
+—————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+
+General Commands (these work in any channel where you can see Mr. Hound listed as a member)
+———————————————————————————————————————————————————————————————————————————————————————————
+
+?commands: 					get this file listing the commands available. Please do not overuse it, instead keep the file somewhere.
+
+?hi/?yo/?hey/?hello/etc: 	greets Mr. Hound.
+
+?thanks: 					thanks Mr. Hound.
+
+?help: 						get the help file which contains general information about the group.
+
+?roll XdY/?XdY: 			rolls X dice of Y maximum sides. Adding a + after the number of sides makes the dice open-ended. The bot will also return an average.
+—————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+
+
+DM commands (these only work in a DM channel with the bot - a DM is a direct message):
+——————————————————————————————————————————————————————————————————————————————————————
+
+?amphibious/?cold-blooded/?demon/?inanimate/?magic being/?tagless/?undead: 					you will receive a file with the list of forms (chassis) currently available,
+																							filtered by the type chosen.
+
+?axes/?daggers/?effects/?intrinsics/?maces/?miscellaneous/?polearms/?staves/?swords/?whips: you will receive a file with the list of weapons filtered by the type chosen.
+
+?heavy armors/?helmets/?light armors/?medium armors/?shields: 								you will receive a file with the list of armors filtered by the type chosen. 
+																							Light armors are those of encumbrance 0 and 1, medium 2 and 3, and heavy 4+.
+
+?trinkets: 																					you will receive a file with the list of trinkets (any item that isn't a 
+																							consumable, weapon, shield or armor).
+
+?consumables: 																				you will receive a file with the list of consumables (items that are mostly 
+																							one-use and aren't equipped, like potions).
+
+?stats <name or id of item or form>: 														you will get a message with the stats of the given item or form.
+
+?create <starting form chosen>: 															creates a new character for our arena game, with the starting form chosen. 
+																							You can only do this once, as you can only have one character.
+
+?self/?status: 																				display your character's sheet (includes the level, xp, afflictions, equipment worn, etc).
+
+?vault: 																					displays your storage; basically all the items you own that you aren't wearing, 
+																							and your currency (gold and gems).
+
+?level up: 																					displays the current number of unspent level up points and if any, the increment 
+																							that they would grant to one of the four levellable stats (hp, natural protection, MR and strength).
+
+?raise hp/protection/mr/strength: 															uses one unspent level up point to raise the chosen stat by the corresponding 
+																							increment (you can get these with the command above). THIS IS NOT REVERSIBLE. 
+																							Choose wisely, as the levellable stats are what determine to which new forms 
+																							you can progress.
+
+?transition <name or id of form>: 															makes your character transition to the chosen form (chassis), assuming you have 
+																							enough currency to pay the cost of the ritual and that you have the required stats for it.
+
+?tasks: 																					displays a list of the tasks your character can undertake to train certain stats, 
+																							research paths, earn gold, etc. To schedule one of them, you need to have enough 
+																							TP (task points) left, and type ?<name of the task>
+
+?my tasks: 																					displays the ongoing task of your character, when it will end, and the next 
+																							scheduled tasks after that one, if any.
+
+?<name of a task>: 																			schedules the chosen task. If your character doesn't have any scheduled then he 
+																							will start it. If there are already others scheduled it will save it to do when 
+																							the others are finished. A maximum of 24 TPs (task points) can be allocated this 
+																							way, which recharge when a task finishes.
+
+?buy <name or id of an item>: 																pays the cost and buys an item, and stores it in your vault. Note that besides 
+																							special occasions, only rarity 0 items can be bought this way.
+
+?sell <name or id of an item you own>: 														sells the item. The rate for selling is 60% of the original cost.
+
+?equip <name or id of an item you own>: 													equips an item from your vault, assuming your character has slots free.
+
+?use <name or id of consumable you own>: 													uses a consumable, like a potion. Most of these are one-use only.
+
+?unequip: 																					unequips all items currently worn by the character and returns them to your vault.
+
+?unequip <name or id of an item worn, or the name of a slot (like "hands" or "head"): 		unequips and returns to your vault the indicated item, or all items worn in the chosen slot.
+—————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+
+
+Arena Commands (only useable in the_arena channel)
+——————————————————————————————————————————————————
+
+?gift from heavens <mention a user>: 	crushes the mentioned user (and collateral damages) under a meteor. This is just a fluff command, it does not affect characters.
+
+?smite <mention a user>: 				smites the mentioned user. This is just a fluff command, it does not affect characters.
+
+?spar/?duel <mention a user>: 			sends a challenge to a user. If you were challenged by the mentioned user, accepts the challenge instead. A SPAR is like a duel, but without 
+										any long-lasting consequence (hp gets healed, no xp is gained). A DUEL is an actual battle between characters. It can cause afflictions, it 
+										lowers hp, and it grants xp on both winner and loser. A character at 0hp or under cannot continue or start any tasks, nor any other duels. 
+										A character recovers hp naturally at a rhythm of 5% per real-time hour.
+
+?attack <mention a user>: 				if in a spar or duel, does the corresponding attacks against the adversary. This works on a turn by turn basis so if it isn't your turn 
+										your attack won't take place. If no spar or duel is ongoing then this simply simulates a single round of attacks against the user's character, 
+										without any actual consequences.

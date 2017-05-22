@@ -1,0 +1,11 @@
+ID,Name,Cost,Encumbrance,Slot,Required Slots,Properties,Rarity,Category,Description
+t1,ironfang,gold (5),0,misc,1,,0,misc,This trinket will make even the most docile dog appear ferocious. the basic bite -e322- of animals becomes piercing.
+t2,ring of cold resistance,"gold (10), sapphires (3)",0,misc,1,resist cold (5),0,misc,A crucial piece of equipment for anyone insane enough to explore the highest peaks of this world.
+t3,ring of fire resistance,"gold (10), rubies (3)",0,misc,1,resist fire (5),0,misc,A crucial piece of equipment for anyone insane enough to explore the scorching deserts of this world.
+t4,ring of poison resistance,"gold (10), emeralds (3)",0,misc,1,resist poison (5),0,misc,A crucial piece of equipment for anyone insane enough to explore the noxious swamps of this world.
+t5,ring of shock resistance,"gold (10), diamonds (3)",0,misc,1,resist shock (5),0,misc,A crucial piece of equipment for anyone insane enough to explore the lightning storms of this world.
+t6,crystalized warrior's blood,"gold (18), bloodstones (4)",0,misc,1,"enhance strength (1), enhance attack (1)",0,misc,You've been told that this gem is the crystalized blood of a great warrior of times past. as you hold it in your hand the thought itself seems to fill you with strength: +1 str and +1 attack.
+t7,barkskin amulet,"gold (15), emeralds (4)",0,misc,1,"barkskin, resist fire (-5)",0,misc,"This magical amulet turns your flesh rough and barklike... which makes you a great target practice for those fireballs (natural prot is set to 10 or +1 if already >= that, -5 fire resistance)"
+t8,champion's skull,"gold (15), onyxes (4)",0,misc,1,,0,misc,Apparently this is the skull of a legendary general. it is said that carrying it through training helps to gain insight and skill faster: +5% on each minute tick for task completion.
+t9,pendant of fate,"gold (15), pearls (4)",0,misc,1,twist fate,0,misc,This pendant will magically prevent some catastrophes from striking the wearer. not that its effectiveness could ever be verified.
+t10,vigorous belt,"gold (20), topazes (5)",0,misc,1,reinvigoration (2),0,misc,"This belt is highly sought after by those who wear heavier armor. It will constantly reinvigorate the wearer, decreasing their fatigue."
