@@ -1,0 +1,7 @@
+You have successfully registered! Further below is your character sheet. You can check it at any point by typing `?self` here. 
+You can also check your vault, where the currency and items you own are stored, by typing `?vault`. 
+If you'd like to see a list of items or forms (chassis), you can use the commands `?armours`, `?consumables`, `?forms`, `?trinkets`, or `?weapons`. To check the details of those, you can type `?stats <name or id of the item>`. 
+To buy or sell items, type `?buy <name or id of the item>` or `?sell <name or id of the item>`. Careful, the selling rate is 60% of its original cost. 
+To equip an item you own, use `?equip <name or id of item>`. To use a consumable you own, type `?use <name or id of the item>`. 
+To unequip an item, you can use `?unequip/drop <name or id of the item/name of a slot (hands, head, etc)>`. If you only type `?unequip/drop` you will unequip all items worn. 
+You can type `?tasks` to see a list of the available tasks for your character, as well as the shares already distributed among them. These resolve in real time, ticking every minute.
