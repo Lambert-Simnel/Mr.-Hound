@@ -64,10 +64,19 @@ module.exports =
   TRANSITIONS: "transitions",
   START_POINTS: "starting points",
   TRANSITION_POINTS: "transition points",
-  SHARE: "share",
+  GOLDSHARE: "goldshare",
   GEMSHARE: "gemshare",
+  GEMPRIORITY: "gem priority",
   STEALTHRESULT: "current sneakosity",
   PATROLRESULT: "current patrol value",
+  
+  //Tasks
+  REST: "resting",
+  HUNT: "hunting",
+  PATROL: "patroling",
+  STEAL: "stealing",
+  MINE: "mining",
+  TEMPLE: "temple duties",
 
   //Item stats
   DMG: "damage",
