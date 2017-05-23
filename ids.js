@@ -64,6 +64,8 @@ module.exports =
   TRANSITIONS: "transitions",
   START_POINTS: "starting points",
   TRANSITION_POINTS: "transition points",
+  SHARE: "share",
+  GEMSHARE: "gemshare",
 
   //Item stats
   DMG: "damage",
