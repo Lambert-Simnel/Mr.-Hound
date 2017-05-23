@@ -66,6 +66,8 @@ module.exports =
   TRANSITION_POINTS: "transition points",
   SHARE: "share",
   GEMSHARE: "gemshare",
+  STEALTHRESULT: "current sneakosity",
+  PATROLRESULT: "current patrol value",
 
   //Item stats
   DMG: "damage",
