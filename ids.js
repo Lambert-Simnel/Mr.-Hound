@@ -247,6 +247,16 @@ module.exports =
   HOLY: "holy",
   NATURE: "nature",
   WATER: "water",
+  
+  //Scales
+  HEATSCALE: "heat scale",
+  ORDERSCALE: "order scale",
+  PRODSCALE: "production scale",
+  GROWTHSCALE: "growth scale",
+  LUCKSCALE: "fortune scale",
+  MAGICSCALE: "magic scale",
+  LIGHTSCALE: "light scale",
+  DOMSCALE: "dominion scale",
 
   //tasks
 
